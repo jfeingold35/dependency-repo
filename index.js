@@ -9,3 +9,7 @@ export function isTruthy(arg) {
 export function isNotTruthy(arg) {
     return !isTruthy(arg)
 }
+
+export function isNotNotTruthy(arg) {
+    return isTruthy(arg);
+}

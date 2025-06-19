@@ -13,3 +13,7 @@ export function isNotTruthy(arg) {
 export function isNotNotTruthy(arg) {
     return isTruthy(arg);
 }
+
+export function isNotNotNotTruthy(arg) {
+    return !isTruthy(arg);
+}
